@@ -8,4 +8,5 @@
 insert into Customers(
 FirstName, LastName, Email, Address, City, State, Phone, Birthday)
 VALUES ('Anna', 'Smith', 'asmith@samoca.org','479 Lapis Dr.','Memphis', 'TN'
-  ,'(555)555-1212','1973-07-21');
+  ,'555-555-1212','1973-07-21');
+  select * from Customers order by CustomerID desc;
